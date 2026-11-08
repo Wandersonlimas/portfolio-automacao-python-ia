@@ -31,7 +31,7 @@ class TestDashboard(unittest.TestCase):
         self.assertEqual(len(parser.ids),len(set(parser.ids)),'IDs HTML duplicados')
         self.assertGreater(len(parser.ids),10)
     def test_scripts_e_dados(self):
-        matches=list(re.finditer(r'<script([^>]*)>([\\s\\S]*?)</script>',self.html,re.I))
+        matches=list(re.finditer(r'<script([^>]*)>([\s\S]*?)</script>',self.html,re.I))
         self.assertEqual(len(matches),2)
         js=[]
         for m in matches:
