@@ -24,7 +24,7 @@ jobs:
           python -m pip install -r requirements.txt
       - name: Executar testes
         id: unit
-        run: python -m unittest discover -s testes -v
+        run: python -m unittest discover -s testes -v 2>&1 | tee /tmp/python-audit.log
       - name: Instalar Chromium para testes de interface
         run: |
           python -m pip install playwright
@@ -32,12 +32,17 @@ jobs:
       - name: Testar dashboard no navegador
         id: browser
         if: always() && steps.unit.outcome == 'success'
-        run: python testes/smoke_browser.py
+        run: python testes/smoke_browser.py 2>&1 | tee /tmp/browser-audit.log
       - name: Registrar resultado da auditoria
         if: always()
         run: |
           mkdir -p testes
           printf 'Auditoria técnica automatizada.\nCommit de origem: %s\nPython: %s\nChromium: %s\n' "$GITHUB_SHA" "${{ steps.unit.outcome }}" "${{ steps.browser.outcome }}" > testes/RESULTADO_AUDITORIA.md
+          echo '' >> testes/RESULTADO_AUDITORIA.md
+          echo '--- Logs dos testes Python ---' >> testes/RESULTADO_AUDITORIA.md
+          if [ -f /tmp/python-audit.log ]; then tail -n 45 /tmp/python-audit.log >> testes/RESULTADO_AUDITORIA.md; fi
+          echo '--- Logs do navegador ---' >> testes/RESULTADO_AUDITORIA.md
+          if [ -f /tmp/browser-audit.log ]; then tail -n 25 /tmp/browser-audit.log >> testes/RESULTADO_AUDITORIA.md; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add testes/RESULTADO_AUDITORIA.md
