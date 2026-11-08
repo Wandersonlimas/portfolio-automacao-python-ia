@@ -1,7 +1,11 @@
-# Automação e Controle | Case 02 · V2.0
+# Case 02 | Automação e Controle de Operações Multicanal
 
 **Portfólio técnico de Wanderson Limas**  
-**Python · ETL · Integração de fontes · Qualidade de dados · BI · HTML/CSS/JavaScript · IA opcional**
+**Python · ETL · Integração de fontes · Qualidade de dados · Business Intelligence · HTML/CSS/JavaScript · Integração opcional com IA**
+
+[**▶ Explorar dashboard interativo**](https://wandersonlimas.github.io/portfolio-automacao-python-ia/) · [**Ver código e documentação**](https://github.com/Wandersonlimas/portfolio-automacao-python-ia) · [**Ler relatório executivo (PDF)**](entregaveis/Relatorio_Executivo_Automacao_Python_IA.pdf)
+
+![Prévia do dashboard de Automação e Controle](entregaveis/Preview_Case2_V2.png)
 
 > **Estudo demonstrativo, 100% sintético.** Todos os valores, IDs e situações foram simulados por software. Este material não demonstra resultados de um empregador, clientes reais nem ganhos efetivamente obtidos. Desenvolvido com assistência de IA e acompanhado de código reproduzível, documentação e testes.
 
@@ -11,7 +15,7 @@ Integrar dados de pedidos, pagamentos e expedições de uma operação multicana
 
 ## Dashboard V2
 
-Abra **`index.html`** no Chrome. É um arquivo autocontido, sem backend ou bibliotecas externas.
+Acesse o [dashboard publicado no GitHub Pages](https://wandersonlimas.github.io/portfolio-automacao-python-ia/). A versão de distribuição, `index.html`, é autocontida, sem backend ou bibliotecas externas, e também pode ser aberta localmente.
 
 - **Gerencial:** cinco indicadores auditáveis, evolução mensal, distribuição por canal, motivos de exceção, conciliação e diagnósticos por regra.
 - **Operacional:** incidência por canal, fila de prioridades, pesquisa, ordenação, paginação, detalhamento e exportação CSV de todo o recorte.
@@ -64,8 +68,14 @@ O dashboard apresenta **análises determinísticas**, executadas no navegador. O
 
 Não envie dados confidenciais para APIs externas. O material fornecido não exige chave de API e não contém dados corporativos reais.
 
-## Publicação
+## Publicação e apresentação profissional
 
-Publique este estudo em **repositório novo**, separado do Case 01. O `index.html` está preparado para GitHub Pages. Consulte [docs/PUBLICACAO_GITHUB_LINKEDIN.md](docs/PUBLICACAO_GITHUB_LINKEDIN.md). Antes de publicar, revise o relatório e valide visualmente os filtros.
+**Status:** repositório público e dashboard publicado pelo GitHub Pages, na branch `main` e pasta raiz `/`.
 
-Este é um projeto demonstrativo, não uma implantação empresarial. As escolhas arquiteturais e limitações estão registradas em `METODOLOGIA.md` e `docs/EVOLUCAO_V2.md`.
+- **Aplicação ao vivo:** https://wandersonlimas.github.io/portfolio-automacao-python-ia/
+- **Código-fonte:** https://github.com/Wandersonlimas/portfolio-automacao-python-ia
+- **Orientações para inclusão no LinkedIn:** [docs/PUBLICACAO_GITHUB_LINKEDIN.md](docs/PUBLICACAO_GITHUB_LINKEDIN.md)
+- **Arquitetura e decisões técnicas:** [docs/ARQUITETURA.md](docs/ARQUITETURA.md)
+- **Metodologia e limitações:** [METODOLOGIA.md](METODOLOGIA.md) e [docs/EVOLUCAO_V2.md](docs/EVOLUCAO_V2.md)
+
+Este é um projeto demonstrativo, não uma implantação empresarial. Os indicadores são simulados e não devem ser apresentados como ganhos comprovados de produtividade, receita ou economia.
