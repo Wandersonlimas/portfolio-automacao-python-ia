@@ -1,5 +1,5 @@
 Auditoria técnica automatizada.
-Commit de origem: 935d7b2046ad8c662ffe578876f91925930d54fb
+Commit de origem: 3f159074f76ecf0fd63017f75aab64ae067043aa
 Python: success
 Chromium: success
 
@@ -17,7 +17,7 @@ test_regras_quarentena (test_pipeline.TestesTecnicos.test_regras_quarentena) ...
 test_semente_reproduzivel (test_pipeline.TestesTecnicos.test_semente_reproduzivel) ... ok
 
 ----------------------------------------------------------------------
-Ran 11 tests in 0.388s
+Ran 11 tests in 0.302s
 
 OK
 --- Logs do navegador ---
