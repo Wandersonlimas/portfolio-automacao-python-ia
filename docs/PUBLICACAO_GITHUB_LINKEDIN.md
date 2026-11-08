@@ -1,25 +1,59 @@
-# Publicação guiada do segundo case
+# Divulgação profissional | Case 02
 
-## 1. Preparação
+## Status do projeto
 
-Abra localmente `index.html` e confira filtros e exportações. Leia o PDF e o `METODOLOGIA.md`. Execute os testes e confirme que compreende as fórmulas.
+- **Dashboard publicado:** https://wandersonlimas.github.io/portfolio-automacao-python-ia/
+- **Repositório público:** https://github.com/Wandersonlimas/portfolio-automacao-python-ia
+- **Branch GitHub Pages:** `main`, pasta `/ (root)`
+- **Data da apresentação pública:** 08/11/2026
+- **Natureza do projeto:** estudo demonstrativo com dados 100% sintéticos.
 
-## 2. GitHub
+## LinkedIn: seção Em destaque
 
-Crie **um repositório novo**, público, diferente do primeiro case CX. Sugestão: `portfolio-automacao-python-ia`. No GitHub, faça upload **do conteúdo interno** desta pasta, sem enviar a pasta externa como um nível extra, mantendo `index.html` na raiz.
+Adicionar **um novo link** à seção **Em destaque**, sem substituir o primeiro case de Customer Experience.
 
-No repositório, configure `Settings → Pages → Deploy from a branch → main → / (root)`. Confirme o novo link público após o deploy. Não publique `.env` ou `OPENAI_API_KEY`.
+**Link:** https://wandersonlimas.github.io/portfolio-automacao-python-ia/
 
-## 3. LinkedIn
+**Título:** Automação de Operações | Python, ETL e Business Intelligence
 
-Em **Em destaque → + → Adicionar link**, cole o endereço do GitHub Pages. A apresentação deve ser um segundo item, separado do dashboard de CX. Use uma captura real do painel como miniatura.
+**Descrição:**
 
-**Título recomendado:** Automação de Operações | Python, ETL, Qualidade de Dados e IA Opcional
+Case técnico demonstrativo com dados sintéticos. Pipeline em Python para integração de pedidos, pagamentos e expedições; validação, conciliação e rastreabilidade dos dados. Dashboard interativo com visões gerencial, operacional e de engenharia, filtros, indicadores de SLA e exportação CSV. Código, metodologia e testes disponíveis no GitHub. Integração com IA documentada como opcional, não executada no painel público.
 
-**Descrição recomendada:** Case técnico demonstrativo com dados sintéticos. Integração automatizada de pedidos, pagamentos e expedições, validação e conciliação, monitoramento de SLA, trilha de auditoria, dashboards e relatório executivo. O processamento é reproduzível em Python, com testes automatizados. Inclui conector opcional com API de IA, não executado na versão pública.
+## Publicação no feed: texto sugerido
 
-Em seguida, adicione o PDF como conteúdo de mídia separado, se considerar que isso facilita a leitura do recrutador. Mantenha sempre visível o caráter fictício do exercício.
+**Case 02 do meu portfólio técnico: Automação e Controle de Operações com Python, ETL e Business Intelligence.**
 
-## 4. Segurança e posicionamento
+Desenvolvi um projeto demonstrativo para simular desafios de uma operação multicanal: consolidar pedidos, pagamentos e expedições, identificar inconsistências e transformar dados em informações para a gestão.
 
-Não insira o nome de um empreendimento pessoal nem de antigos empregadores neste projeto demonstrativo. Não represente métricas sintéticas como resultado profissional real. Não use repositório privado com o Pages público sem verificar regras do seu plano.
+O fluxo utiliza Python para processamento e validação, conciliação entre fontes, trilha de auditoria e geração de indicadores. Na interface, organizei as análises em três visões: Gerencial, Operacional e Engenharia.
+
+É possível explorar os indicadores por período, canal, categoria e status, investigar exceções e exportar os registros filtrados. A documentação inclui fórmulas, critérios, arquitetura e testes.
+
+Todo o conjunto utiliza **dados 100% sintéticos**. A integração com IA está documentada como módulo opcional e não é executada no dashboard público.
+
+🔗 Dashboard: https://wandersonlimas.github.io/portfolio-automacao-python-ia/
+
+💻 Repositório e documentação: https://github.com/Wandersonlimas/portfolio-automacao-python-ia
+
+#Python #ETL #BusinessIntelligence #Automacao #AnaliseDeDados
+
+## Material de apoio
+
+- [Miniatura do case](../entregaveis/Miniatura_LinkedIn_Automacao_Case2.png)
+- [Relatório executivo](../entregaveis/Relatorio_Executivo_Automacao_Python_IA.pdf)
+- [Metodologia](../METODOLOGIA.md)
+- [Arquitetura](ARQUITETURA.md)
+
+## Critérios para finalização
+
+- [x] Repositório próprio, público e separado do Case 01
+- [x] Dashboard disponível via GitHub Pages, conforme abertura validada
+- [x] README com links do projeto público
+- [x] Texto do LinkedIn preparado
+- [ ] Adicionar o link à seção **Em destaque** no LinkedIn
+- [ ] Opcional: publicar no feed com a miniatura
+- [ ] Revisar visualmente a miniatura, PDF e detalhes das regras de negócio antes de compartilhar
+- [ ] Executar os testes em ambiente local e registrar resultado, se ainda não realizado
+
+Não representar números simulados como resultados de empresas reais. Não enviar chaves de API, informações sigilosas, marcas de antigos empregadores ou códigos proprietários.
